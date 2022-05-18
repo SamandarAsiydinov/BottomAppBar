@@ -22,6 +22,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             BottomSheetBottomAppBarTheme {
                 Surface(
+                    //surface
                     color = MaterialTheme.colors.background
                 ) {
                     MyBottomAppBar()
